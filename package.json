@@ -1,0 +1,53 @@
+{
+  "name": "passion-air-cms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "serve-json": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/material": "^5.15.9",
+    "@mui/styled-engine": "^5.15.0",
+    "@mui/x-data-grid": "^6.19.4",
+    "@mui/x-date-pickers": "^6.18.5",
+    "@reduxjs/toolkit": "^2.1.0",
+    "axios": "^1.6.1",
+    "date-fns": "^2.30.0",
+    "flowbite-react": "^0.6.4",
+    "formik": "^2.4.5",
+    "json-server": "^0.17.4",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.18.0",
+    "react-select": "^5.8.0",
+    "react-toastify": "^9.1.3",
+    "react-trix": "^0.10.2",
+    "yup": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.0"
+  }
+}

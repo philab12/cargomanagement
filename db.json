@@ -1,0 +1,436 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fname": "Nhyirah",
+            "lname": "Boafo",
+            "email": "kayshel@gmail.com",
+            "password": "",
+            "branch": "Regent Branch",
+            "telephone": "0277468778",
+            "userLevel": "Administrator",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "fname": "Kyeremah",
+            "lname": "Kwame",
+            "email": "brucey@gmail.com",
+            "password": "",
+            "branch": "Ofankor Barrier",
+            "telephone": "0277468778",
+            "userLevel": "Manager",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "fname": "Jesse",
+            "lname": "Roberts",
+            "email": "nanaapmon@gmail.com",
+            "password": "",
+            "branch": "Garden City Branch",
+            "telephone": "0277468778",
+            "userLevel": "Administrator",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "fname": "George",
+            "lname": "Washington",
+            "email": "powermic@gmail.com",
+            "password": "",
+            "branch": "Ofankor Barrier",
+            "telephone": "0277468778",
+            "userLevel": "Administrator",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "fname": "Nana Addo Dankwah",
+            "lname": "Akuffo-Addo",
+            "email": "lelerbam@gmail.com",
+            "password": "",
+            "branch": "Regent Branch",
+            "telephone": "0277468778",
+            "userLevel": "Manager",
+            "status": "Active"
+        }
+    ],
+
+    "userStatus": [
+        {
+            "id": 1,
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "status": "Inactive"
+        },
+        {
+            "id": 3,
+            "status": "Suspended"
+        }
+    ],
+
+    "userLevels": [
+        {
+            "id": 1,
+            "level": "SUPERVISOR",
+            "isActive": "Yes"
+        },
+        {
+            "id": 2,
+            "level": "SUPER ADMINISTRATOR",
+            "isActive": "Yes"
+        },
+        {
+            "id": 3,
+            "level": "ADMINISTRATOR",
+            "isActive": "Yes"
+        },
+        {
+            "id": 4,
+            "level": "MANAGER",
+            "isActive": "Yes"
+        },
+        {
+            "id": 5,
+            "level": "STAFF",
+            "isActive": "Yes"
+        },
+        {
+            "id": 6,
+            "level": "USER",
+            "isActive": "Yes"
+        }
+    ],
+
+    "branches":[
+        {
+            "id": 1,
+            "name": "Ofankor Barrier",
+            "isActive": "Yes",
+            "location": "Cherubim Ave 2",
+            "telephone": "0244789784",
+            "email": "ofankor@passionair.com",
+            "isMain": "Yes",
+            "manager": "Henry Mensah"
+        },
+        {
+            "id": 2,
+            "name": "Regent Branch",
+            "isActive": "Yes",
+            "location": "Airport Shell",
+            "telephone": "0547846695",
+            "email": "regent@passionair.com",
+            "isMain": "No",
+            "manager": "Ken Ofosu"
+        },
+        {
+            "id": 3,
+            "name": "Garden City Branch",
+            "isActive": "Yes",
+            "location": "Adum",
+            "telephone": "0277468778",
+            "email": "adum@passionair.com",
+            "isMain": "No",
+            "manager": "Mary Adjei"
+        }
+    ],
+
+    "customers": [
+        {
+            "id": 1,
+            "fname": "Kwadwo",
+            "lname": "Sheldon",
+            "email": "kayshel@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 2,
+            "fname": "Kwesi",
+            "lname": "Bruce",
+            "email": "brucey@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 3,
+            "fname": "Nana Yaw",
+            "lname": "Amponsah",
+            "email": "nanaapmon@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 4,
+            "fname": "Michael",
+            "lname": "Power",
+            "email": "powermic@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 2,
+            "fname": "Lesley",
+            "lname": "Bamfo",
+            "email": "lelerbam@gmail.com",
+            "telephone": "0277468778"
+        }
+    ],
+
+    "staff": [
+        {
+            "id": 1,
+            "name": "Michael Essien",
+            "email": "sportyessien@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 2,
+            "name": "Kevlin Bennette",
+            "email": "brucey@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 3,
+            "name": "Nana Yaa Agyeiwaa",
+            "email": "nanaapmon@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 4,
+            "name": "Michael Barnes",
+            "email": "powermic@gmail.com",
+            "telephone": "0277468778"
+        },
+        {
+            "id": 2,
+            "name": "Lesley Baidoo",
+            "email": "lelerbam@gmail.com",
+            "telephone": "0277468778"
+        }
+    ],
+
+    "revenue": [
+        {
+            "id": 1,
+            "amount": "3,000",
+            "date": "20-10-2023",
+            "branch": "Regent Branch"
+        },
+        {
+            "id": 2,
+            "amount": "9,000",
+            "date": "01-11-2023",
+            "branch": "Ofankor Barrier"
+        },
+        {
+            "id": 3,
+            "amount": "5,000",
+            "date": "01-11-2023",
+            "branch": "Garden City Branch"
+        }
+    ],
+
+    "tickets": [
+        {
+            "id": 1,
+            "by": "Celestine Donkor",
+            "subject": "Lost Product",
+            "status": "Open",
+            "priority": "High",
+            "lastReply": "Hi. The delivery guy delivered my items, but one package is not in it.",
+            "date": "01-11-2023",
+            "lastUpdate": "01-11-2023"
+        },
+        {
+            "id": 2,
+            "by": "Emmanuel Acheampong",
+            "subject": "Unreasonable Pricing",
+            "status": "Answered",
+            "priority": "Low",
+            "lastReply": "We are sorry for that. We will look into it and get back to you shortly.",
+            "date": "01-11-2023",
+            "lastUpdate": "01-11-2023"
+        },
+        {
+            "id": 3,
+            "by": "Joseph Dior",
+            "subject": "Missing Items",
+            "status": "Customer Reply",
+            "priority": "High",
+            "lastReply": "There was a small box in the items I sent but the receiver says its not there.",
+            "date": "01-11-2023",
+            "lastUpdate": "01-11-2023"
+        },
+        {
+            "id": 4,
+            "by": "Joseph Dior",
+            "subject": "Missing Items",
+            "status": "Closed",
+            "priority": "Medium",
+            "lastReply": "Thanks for your assistance",
+            "date": "01-11-2023",
+            "lastUpdate": "01-11-2023"
+        }
+    ],
+
+    "dashboard": [
+        {
+            "totalCourier": 50,
+            "inQueueCourier": 29,
+            "dispatchedCourier": 10,
+            "deliveredCourier": 10,
+            "collection": 5,
+            "totalRevenue": "1,500"
+        }
+    ],
+
+    "trips": [
+        {
+            "id": 1,
+            "tripName": "ACC-KSI",
+            "from": "Accra",
+            "to": "Kumasi",
+            "duration": "30mins"
+        },
+        {
+            "id": 2,
+            "tripName": "ACC-TDI",
+            "from": "Accra",
+            "to": "Takoradi",
+            "duration": "20mins"
+        }
+    ],
+
+    "courier": [
+        {
+            "id": 1,
+            "senderBranchStaff": "Regent Branch - Michael Essien",
+            "receiverBranchStaff": "Ofankor Barrier - Kelvin Bennette",
+            "amountOrderNumber": "300 - 12355447",
+            "creationsDate": "01-11-2023",
+            "paymentStatus": "paid",
+            "status": "sent",
+            "action": ""
+        }
+    ],
+
+    "courierTypes": [
+        {
+            "id": 1,
+            "type": "Type One",
+            "isActive": "Yes"
+        },
+        {
+            "id": 2,
+            "type": "Type Two",
+            "isActive": "Yes"
+        }
+    ],
+
+    "courierStages": [
+        {
+            "id": 1,
+            "stage": "In Queue",
+            "isActive": "Yes"
+        },
+        {
+            "id": 2,
+            "stage": "Dispatched",
+            "isActive": "Yes"
+        },
+        {
+            "id": 3,
+            "stage": "Delivered",
+            "isActive": "Yes"
+        },
+        {
+            "id": 4,
+            "stage": "Collected",
+            "isActive": "Yes"
+        }
+    ],
+
+    "courierCategories": [
+        {
+            "id": 1,
+            "type": "Type One",
+            "categoryName": "Document",
+            "isActive": "Yes"
+        },
+        {
+            "id": 2,
+            "type": "Type One",
+            "categoryName": "Fragile",
+            "isActive": "Yes"
+        },
+        {
+            "id": 3,
+            "type": "Type Two",
+            "categoryName": "Electronic",
+            "isActive": "Yes"
+        }
+    ],
+
+    "courierPrices": [
+        {
+            "id": 1,
+            "trip": "ACC-KSI",
+            "type": "Type Two",
+            "category": "Document",
+            "unit": "KG",
+            "weight": 6,
+            "price": 145,
+            "insurancePrice": 50,
+            "isActive": "Yes"
+        },
+        {
+            "id": 2,
+            "trip": "ACC-TDI",
+            "type": "Type Two",
+            "category": "Fragile",
+            "unit": "KG",
+            "weight": 9,
+            "price": 220,
+            "insurancePrice": 65,
+            "isActive": "Yes"
+        },
+        {
+            "id": 3,
+            "trip": "ACC-TDI",
+            "type": "Type One",
+            "category": "Electronic",
+            "unit": "KG",
+            "weight": 6,
+            "price": 165,
+            "insurancePrice": 50,
+            "isActive": "Yes"
+        }
+    ],
+
+    "units": [
+        {
+            "id": 1,
+            "unit": "Kilograms",
+            "alias": "KG",
+            "isActive": "Yes"
+        },
+        {
+            "id": 2,
+            "unit": "Pounds",
+            "alias": "LB",
+            "isActive": "No"
+        }
+    ],
+
+    "user_logs": [
+        {
+            "id": 1,
+            "userName": "Nhyirah Boafo",
+            "time": "01-11-2023 01:24:00",
+            "ip": "127.0.0.1",
+            "location": "Teiman",
+            "browser": "Chrome",
+            "os": "Windows 11"
+        }
+    ]
+}

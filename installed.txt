@@ -1,0 +1,10 @@
+Installed Dependencies
+
+React
+Vite
+Tailwind
+Flowbite
+Formik
+Yup
+json-server
+axios

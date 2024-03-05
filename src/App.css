@@ -1,0 +1,11 @@
+body{
+    @apply bg-gray-100;
+}
+
+::-moz-selection { /* Code for Firefox */
+    @apply text-white bg-passionBlue
+}
+  
+::selection {
+    @apply text-white bg-passionBlue
+}

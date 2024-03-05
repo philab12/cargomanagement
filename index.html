@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/img/favicon2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/trix@1.3.1/dist/trix.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/trix@1.3.1/dist/trix.js"></script>
+    <title>Passion Air Cargo Management System</title>
+    
+    <!-- Loading Spinner Styling -->
+    <style>
+      .loader-container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .loader {
+        animation: spin 3s linear infinite;
+        overflow: hidden;
+      }
+      
+      @keyframes spin {
+        0%  { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      </style>
+
+  </head>
+  <body>
+    <div id="root">
+      
+      <!-- Loading Spinner Div -->
+      <div class="loader-container">
+        <div class="loader">
+          <img src="src/assets/img/favicon.png" alt="" style="width: 100%;">
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

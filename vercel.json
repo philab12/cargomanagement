@@ -1,0 +1,12 @@
+{
+    "env": {
+        "VITE_CI":"false",
+        "VITE_BACKENDURL":"https://cargobackend.vercel.app"
+    },
+    "rewrites":[
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
+}

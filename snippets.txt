@@ -1,0 +1,18 @@
+-- Sidebar Snips -- 
+
+{/*default link for the sidebar*/}
+{/* <Sidebar.Item href="#" icon={HiInbox}>
+Inbox
+</Sidebar.Item>*/}
+{/*default link for the sidebar*/}
+
+
+{/* For drop down link */}
+{/* <Sidebar.Collapse icon={HiShoppingBag} label="E-commerce">
+<Sidebar.Item href="#">Products</Sidebar.Item>
+<Sidebar.Item href="#">Sales</Sidebar.Item>
+<Sidebar.Item href="#">Refunds</Sidebar.Item>
+<Sidebar.Item href="#">Shipping</Sidebar.Item>
+</Sidebar.Collapse>  */}
+{/* For drop down link */}
+
